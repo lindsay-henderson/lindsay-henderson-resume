@@ -1,6 +1,6 @@
 import '../App.css'
 
-const Projects = (props) => {
+const ProjectsList = (props) => {
   console.log('props here:', props)
   return (
     <>
@@ -22,4 +22,5 @@ const Projects = (props) => {
   )
 }
 
-export default Projects
+<ProjectPreview
+{project.title}={project.title}/>
