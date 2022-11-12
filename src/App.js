@@ -7,6 +7,7 @@ import Resume from './pages/Resume.jsx'
 import Projects from './pages/Projects.jsx'
 import Nav from './components/Nav.jsx'
 import {allProjects} from './data/allProjects';
+import ProjectDetails from './pages/ProjectDetails';
 
 function App() {
   return (
@@ -23,12 +24,14 @@ function App() {
         <Route path='projects' 
         element={<Projects
         allProjects={allProjects}/>}/>
+        <Route path='projects/:projectDetails' 
+        element={<ProjectDetails/>}/>
         <Route path='Resume' 
-        element={<Resume/>} />
+        element={<Resume/>}/>
       </Routes>
     </main>
     </>
   );
 }
 
-export default App;
+export default App

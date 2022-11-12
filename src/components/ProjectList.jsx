@@ -1,26 +1,23 @@
 import '../App.css'
+import ProjectPreview from './ProjectPreview'
 
-const ProjectsList = (props) => {
+const ProjectList = (props) => {
   console.log('props here:', props)
   return (
     <>
     <h1>Projects</h1>,
     <ul className="project-list">
-    {props.allProjects.map((project) =>
-      <li key={project.id}>
-
-
-        <a href="{project.deploymentLink}"><h3>{project.title}</h3></a>
-        <p>{project.description}</p> 
-        <img src={project.image} alt="a phone and computer with app screenshots on their displays"/>
-        <a href="{project.repositoryLink}"><h4>GitHub</h4></a>
-        
-        </li> 
+    {props.allProjects.map(prop=>
+      <li key={prop.id}>
+        <ProjectPreview
+        title={prop.title}
+        image={prop.image}
+        />
+      </li> 
     )}
     </ul>
       </>
   )
 }
 
-<ProjectPreview
-{project.title}={project.title}/>
+export default ProjectList

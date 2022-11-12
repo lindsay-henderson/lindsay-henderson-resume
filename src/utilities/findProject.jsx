@@ -1,7 +1,7 @@
-  export const allProjects = 
+let allProjects = 
 [
   {
-    title: '5kFox',
+    title: '5k Fox',
     description: 'A digital pet. User helps a fox train for a 5k by giving them naps, cookies, and regular runs',
     image: 'https://live.staticflickr.com/65535/52493360709_7c478c33f1_k.jpg',
     repositoryLink: 'https://github.com/lindsay-henderson/5k-Fox.git',
@@ -16,3 +16,19 @@
     deploymentLink: 'https://roller-skate-library.fly.dev/'
   }
 ]
+
+
+function findProject(string) {
+  
+  let newArr = allProjects
+
+  let arr = string.replace(/-/g, ' ')
+  console.log(arr)
+
+result = newArr.filter(project => {
+  return project.title.toLowerCase() === arr
+})
+console.log('title found', result)
+}
+
+findProject('5k-fox')

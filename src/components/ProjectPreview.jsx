@@ -1,10 +1,13 @@
 import '../App.css'
 
-<div>
+const ProjectPreview = (props) => {
+    console.log('title', props.title)
+    return(
+  <div>
     <img 
         src={props.image} 
         alt={props.title}
-    />
+        />
 
     <section>
         <h3>
@@ -15,10 +18,10 @@ import '../App.css'
         </button>
     </section>
 </div>
+    )
+}
 
-
-
-// const Projects = (props) => {
+// const ProjectList = (props) => {
 //   console.log('props here:', props)
 //   return (
 //     <>
@@ -30,10 +33,11 @@ import '../App.css'
 //         <p>{project.description}</p> 
 //         <img src={project.image} alt="a phone and computer with app screenshots on their displays"/>
 //         <a href="{project.repositoryLink}"><h4>GitHub</h4></a>
-        
-//         </li> 
+//       </li> 
 //     )}
 //     </ul>
 //       </>
 //   )
 // }
+
+export default ProjectPreview

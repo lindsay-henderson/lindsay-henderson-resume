@@ -1,24 +1,13 @@
 import '../App.css'
+import ProjectList from '../components/ProjectList'
+import { allProjects } from '../data/allProjects'
 
-const Projects = (props) => {
-  console.log('props here:', props)
+const Projects = () => {
+  console.log('allprojects', allProjects)
   return (
-    <>
-    <h1>Projects</h1>,
-    <ul className="project-list">
-    {props.allProjects.map((project) =>
-      <li key={project.id}>
-
-
-        <a href="{project.deploymentLink}"><h3>{project.title}</h3></a>
-        <p>{project.description}</p> 
-        <img src={project.image} alt="a phone and computer with app screenshots on their displays"/>
-        <a href="{project.repositoryLink}"><h4>GitHub</h4></a>
-        
-        </li> 
-    )}
-    </ul>
-      </>
+    <ProjectList
+    allProjects={allProjects} 
+    />
   )
 }
 
