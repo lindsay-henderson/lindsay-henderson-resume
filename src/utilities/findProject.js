@@ -17,18 +17,17 @@ let allProjects =
   }
 ]
 
-
-function findProject(string) {
+export function findProject(string) {
   
   let newArr = allProjects
-
   let arr = string.replace(/-/g, ' ')
   console.log(arr)
-
-result = newArr.filter(project => {
-  return project.title.toLowerCase() === arr
-})
-console.log('title found', result)
+  let result = newArr.filter(project => {
+    return project.title.toLowerCase() === arr
+  })
+  console.log('title found', result)
+  let found = result[0]
+  return found 
 }
 
-findProject('5k-fox')
+export default findProject
