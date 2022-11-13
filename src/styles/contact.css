@@ -1,0 +1,21 @@
+h1 {
+  color: #035E7B;
+}
+
+p {
+  padding: 4px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20%;
+  background-color: #73937E;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  font-size: 20px;
+  color: #EDF6F9;
+}
