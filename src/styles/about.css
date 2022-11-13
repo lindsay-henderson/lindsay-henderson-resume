@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: 10%;
+}
+
+.about-text {
+  border: 2px solid #035E7B;
+  padding: 4%;
+  background: linear-gradient(#73937e7e,#EDF6F9);
+}

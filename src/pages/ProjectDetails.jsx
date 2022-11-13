@@ -1,4 +1,3 @@
-//import { allProjects } from "../data/allProjects"
 import { findProject } from '../utilities/findProject'
 import { useParams } from "react-router-dom"
 

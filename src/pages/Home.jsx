@@ -1,7 +1,9 @@
 function Home() {
   return (
-    <h1>Lindsay Henderson</h1>,
+    <div className="home-card">
+    <h2>Lindsay Henderson</h2>
     <h3>Software Engineer</h3>
+    </div>
   )
 }
 
