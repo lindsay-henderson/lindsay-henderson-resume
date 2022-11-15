@@ -2,21 +2,21 @@ import '../App.css'
 import ProjectPreview from './ProjectPreview'
 
 const ProjectList = (props) => {
-  console.log('props here:', props)
+
   return (
     <>
-    <h1>Projects</h1>,
+    <h1>Projects</h1>
     <ul className="project-list">
-    {props.allProjects.map(prop=>
-      <li key={prop.id}>
-        <ProjectPreview
-        title={prop.title}
-        image={prop.image}
-        />
-      </li> 
-    )}
+      {props.allProjects.map(prop=>
+        <li key={prop.id}>
+          <ProjectPreview
+          title={prop.title}
+          image={prop.image}
+          />
+        </li> 
+      )}
     </ul>
-      </>
+    </>
   )
 }
 
