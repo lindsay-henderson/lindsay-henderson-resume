@@ -1,13 +1,13 @@
 import '../styles/resume.css'
 function Resume() {
   return (
-  <body>
+    <div>
     <p className="resume">
       <a href="/Lindsay-N-Henderson-Resume-22.pdf" download>
-      <h3>Download My Resume</h3>
+      Download My Resume
       </a>
     </p>
-  </body>
+  </div>
   )}
 
 export default Resume
