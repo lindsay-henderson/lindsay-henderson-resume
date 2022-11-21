@@ -6,7 +6,8 @@ function Nav() {
         <nav className="nav-bar">
           <div className="home">
             <NavLink to='/'>
-              <img src="/apple-touch-icon.png" alt="a square with the initials L & H"/></NavLink>
+              <img src="/apple-touch-icon.png" alt="a square with the initials L & H"/>
+              </NavLink>
           </div>
           <div className="links">
             <NavLink to='/about'>About</NavLink>

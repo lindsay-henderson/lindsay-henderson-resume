@@ -1,8 +1,28 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  background:#EDF6F9;
+}
+
 section {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.photo {
+  margin-top: 30%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo > img {
+  width: 100%;
+  height: auto;
 }
 
 .about-box {
@@ -10,12 +30,13 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 75%;
+  width: 100%;
   margin: 10%;
+  background:#EDF6F9;
 }
 
 .about-text {
-  border: 2px solid #035E7B;
+  width: 85%;
   padding: 4%;
-  background: linear-gradient(#73937e7e,#EDF6F9);
+  background:#EDF6F9;
 }
