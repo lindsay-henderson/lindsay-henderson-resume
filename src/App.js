@@ -26,7 +26,7 @@ function App() {
         allProjects={allProjects}/>}/>
         <Route path='projects/:projectDetails' 
         element={<ProjectDetails/>}/>
-        <Route path='Resume' 
+        <Route path='resume' 
         element={<Resume/>}/>
       </Routes>
     </main>

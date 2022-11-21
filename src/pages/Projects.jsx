@@ -1,4 +1,4 @@
-import '../App.css'
+import '../styles/projects.css'
 import ProjectList from '../components/ProjectList'
 import { allProjects } from '../data/allProjects'
 
