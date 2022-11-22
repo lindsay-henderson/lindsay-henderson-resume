@@ -6,13 +6,13 @@ const ProjectPreview = (props) => {
   let path = hyphenateWords(props.title)
     
   return(
-  <div>
+  <div className='preview'>
     <img 
       src={props.image} 
       alt={props.title}
     />
 
-    <section>
+    <section className ='title'>
       <h3>
         {props.title}
       </h3>

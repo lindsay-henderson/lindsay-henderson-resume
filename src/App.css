@@ -65,6 +65,7 @@ li {
 button {
   color: #002E2C;
   background: none;
+  border: none;
 }
 
 button:hover {
