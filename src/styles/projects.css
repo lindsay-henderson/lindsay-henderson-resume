@@ -1,10 +1,14 @@
 html,
-body,
 main {
-  margin-top: 80px;
+  margin-top: 60px;
   height: 100%;
   background:#EDF6F9;
   width: 100%;
+}
+
+body {
+  border: 0;
+  height: 0;
 }
 
 #root,
@@ -14,7 +18,8 @@ main {
 }
 
 .projects {
-  margin-top: 300px;
+  margin-top: 400px;
+  border: 0;
 }
 
 li {

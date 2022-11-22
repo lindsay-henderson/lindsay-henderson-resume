@@ -1,8 +1,9 @@
 html,
-body {
-  margin-top: 70px;
-  height: 100%;
+body,
+main {
+  margin-top: 60px;
   background:#EDF6F9;
+  width: 100%;
 }
 
 section {
@@ -13,14 +14,15 @@ section {
 }
 
 .photo {
-  width: 60%;
   align-items: center;
   justify-content: center;
 }
 
 .photo > img {
-  width: 100%;
+  width: 250px;
   height: auto;
+  border-radius: 50%;
+  border: 8px solid #035E7B;
 }
 
 .about-box {
@@ -29,7 +31,7 @@ section {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 10%;
+  margin: 0;
   background:#EDF6F9;
 }
 
