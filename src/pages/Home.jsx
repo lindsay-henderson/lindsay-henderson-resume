@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="home-card">
       <div className="headshot">
-        <img src="https://live.staticflickr.com/65535/52517586536_d1e1debd7e_b.jpg" alt="a photo of Lindsay"/>
+        <img src="https://live.staticflickr.com/65535/52517586536_d1e1debd7e_b.jpg" alt="Lindsay"/>
       </div>
       <div className='text'>
         <h2>Hi, My name is Lindsay Henderson</h2>

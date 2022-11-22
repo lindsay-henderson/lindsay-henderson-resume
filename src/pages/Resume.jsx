@@ -7,6 +7,7 @@ function Resume() {
           Download My Resume
         </a>
       </p>
+      <img src="/Lindsay-N-Henderson-Resume-22.pdf" alt="" />
     </div>
   )
 }
