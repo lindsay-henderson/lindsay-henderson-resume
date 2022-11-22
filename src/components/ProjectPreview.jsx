@@ -1,4 +1,4 @@
-import '../App.css'
+import '../styles/projects.css'
 import hyphenateWords from '../utilities/hyphenateWords'
 import { Link } from 'react-router-dom'
 

@@ -1,7 +1,7 @@
 html,
 body,
 main {
-  margin-top: 60px;
+  margin-top: 80px;
   height: 100%;
   background:#EDF6F9;
   width: 100%;
@@ -10,15 +10,22 @@ main {
 #root,
 .project-list {
   width: 100%;
+  padding: 0;
 }
+
+.projects {
+  margin-top: 300px;
+}
+
 li {
   width: 100%;
+
 }
 
 .preview {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 
@@ -52,22 +59,37 @@ button:hover {
   background: none;
 }
 
+a {
+  text-decoration: none;
+}
 @media screen and (min-width: 600px) {
   
   .preview > img {
     height: 400px;
     width : auto;
   }
+
+  .project-list {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 800px) {
   .preview {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
   }
 
   .title {
     width: 40%; 
     padding: 10%;
+  }
+
+  ul {
+    margin-top: 80px;
   }
   
 }

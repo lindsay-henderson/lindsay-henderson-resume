@@ -1,10 +1,10 @@
-import '../App.css'
+import '../styles/projects.css'
 import ProjectPreview from './ProjectPreview'
 
 const ProjectList = (props) => {
 
   return (
-    <>
+    <section className='projects'>
     <h1>Projects</h1>
     <ul className="project-list">
       {props.allProjects.map(prop=>
@@ -16,7 +16,7 @@ const ProjectList = (props) => {
         </li> 
       )}
     </ul>
-    </>
+    </section>
   )
 }
 
