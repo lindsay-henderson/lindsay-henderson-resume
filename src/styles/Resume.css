@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: center;
   justify-content: center;
-
 }
 .resume {
   display: flex;
@@ -13,10 +12,14 @@
   justify-content: center;
   width: 400px;
   height: 300px;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
 }
 
 h2 > a {
-  color: #FF8E72;
+  color: #035E7B;
   text-decoration: none;
 }
 

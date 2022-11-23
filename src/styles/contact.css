@@ -11,7 +11,7 @@ main {
 h1 {
   color: #035E7B;
   margin-bottom: 20px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .chat {
@@ -66,5 +66,9 @@ h1 {
   .icons > a > img {
     width: 75px;
     height: 75px;
+  }
+
+  h1 {
+    font-size: 50px;
   }
 }
