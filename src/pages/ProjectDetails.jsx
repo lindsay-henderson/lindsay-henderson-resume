@@ -17,9 +17,9 @@ const ProjectDetails = () => {
         <div className='details'>
             <p>{project.description}</p>
             <div className='gitlaunch'>
-              <a href={ project.repositoryLink } target="_blank" >github</a>
+              <a href={ project.repositoryLink } >github</a>
               <br/>
-              <a href={ project.deploymentLink } target="_blank" >try it out</a>
+              <a href={ project.deploymentLink }>try it out</a>
             </div>
         </div>
       </div>
