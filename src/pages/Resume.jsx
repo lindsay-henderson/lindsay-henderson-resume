@@ -1,5 +1,6 @@
 import React from 'react'
 // import '../styles/resume.css'
+import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume-22.pdf'
 
 
 function Resume() {
@@ -11,6 +12,13 @@ function Resume() {
         <img src="/under-construction.png" alt="traffic cone" />
         <h4>More cool stuff coming...</h4>
       </p>
+
+      <button>
+                  {/* text="See my resume"
+                  newTab={true}
+                  href={pdf} */}
+                  <a href={pdf}> here</a>
+                  </button>
     </div>
   )
 }

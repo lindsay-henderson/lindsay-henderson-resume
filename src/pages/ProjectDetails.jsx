@@ -24,7 +24,6 @@ const ProjectDetails = () => {
         </div>
       </div>
     </section>
-
     )
   }
 

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume-22.pdf'
 
 function Nav() {
   return (
@@ -12,11 +13,10 @@ function Nav() {
           <div className="links">
             <NavLink to='/about'>About</NavLink>
             <NavLink to='/projects'>Projects</NavLink>
-            <NavLink to='/resume'>Resume</NavLink>
+            <NavLink to={pdf}>Resume</NavLink>
             <NavLink to='/contact'>Contact</NavLink>
           </div>
         </nav>
-
   )
 }
 
