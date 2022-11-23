@@ -13,7 +13,7 @@ function Nav() {
           <div className="links">
             <NavLink to='/about'>About</NavLink>
             <NavLink to='/projects'>Projects</NavLink>
-            <NavLink to={pdf}>Resume</NavLink>
+            <NavLink to={pdf} target="_blank">Resume</NavLink>
             <NavLink to='/contact'>Contact</NavLink>
           </div>
         </nav>
