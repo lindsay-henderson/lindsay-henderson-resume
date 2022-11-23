@@ -12,6 +12,9 @@ const ProjectList = (props) => {
           <ProjectPreview
           title={prop.title}
           image={prop.image}
+          description={prop.description}
+          repositoryLink={prop.repositoryLink}
+          deploymentLink={prop.deploymentLink}
           />
         </li> 
       )}
