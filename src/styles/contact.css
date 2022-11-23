@@ -15,7 +15,7 @@ h1 {
 }
 
 .chat {
-  margin-top: 40px;
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -41,16 +41,30 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 15px;
+}
 
+.contact  > p {
+  color: #035E7B;;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  p > img {
+  padding: 5px;
 }
 
 @media screen and (min-width: 800px) {
   .intro > img  {
-    width: 600px;
+    width: 500px;
   }
 
   .chat {
     display: flex;
     flex-direction: row-reverse;
+  }
+  .icons > a > img {
+    width: 75px;
+    height: 75px;
   }
 }

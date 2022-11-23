@@ -3,13 +3,14 @@ import '../styles/contact.css'
 function Contact() {
   return (
     <section className='contact-box'>
-      <h1>Stay in Touch</h1>
+      <h1>Let's Stay in Touch</h1>
+      
       <div className="chat">
         <div className="contact">
-          <p>LindsayNHenderson@gmail.com</p>
+          <p> <img src="/envelope.png" alt="mail icon" />LindsayNHenderson@gmail.com</p>
             <div className='icons'>
-            <a href="https://www.linkedin.com/in/lindsay-n-henderson/"><p>LinkedIn</p></a>
-            <a href="https://github.com/lindsay-henderson"><p>GitHub</p></a>
+            <a href="https://www.linkedin.com/in/lindsay-n-henderson/"> <img src="/linkedin.png" alt="linkedin logo" /></a>
+            <a href="https://github.com/lindsay-henderson"><img src="/github.png" alt="github logo" /></a>
           </div>
         </div>
         <div className='intro'>

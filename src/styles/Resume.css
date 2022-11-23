@@ -1,19 +1,22 @@
+.resume-details {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
 
-
+}
 .resume {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 20%;
-  background-color: #73937E;
-  border-radius: 50%;
-  width: 300px;
+  width: 400px;
   height: 300px;
 }
 
-a {
-  color: #EDF6F9;
+h2 > a {
+  color: #FF8E72;
   text-decoration: none;
 }
 
