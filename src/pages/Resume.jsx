@@ -1,15 +1,20 @@
-// import '../styles/resume.css'
+import React from 'react'
+import '../styles/resume.css'
+
+
 function Resume() {
   return (
-    <div>
+    <div className='resume-details'>
       <p className="resume">
-        <a href="/Lindsay-N-Henderson-Resume-22.pdf" download>
-          Download My Resume
-        </a>
+        <a href="/Lindsay-N-Henderson-Resume-22.pdf" download><h2>
+          Download My Resume Here
+          </h2></a>
+        <img src="/under-construction.png" alt="traffic cone" />
+        <h4>More cool stuff coming...</h4>
       </p>
-      <img src="/Lindsay-N-Henderson-Resume-22.pdf" alt="" />
     </div>
   )
 }
+
 
 export default Resume

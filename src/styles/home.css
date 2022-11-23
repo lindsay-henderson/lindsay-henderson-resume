@@ -1,10 +1,12 @@
-html,
-body,
-main {
+main 
+.home-page{
   margin-top: 0;
   background:#EDF6F9;
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
