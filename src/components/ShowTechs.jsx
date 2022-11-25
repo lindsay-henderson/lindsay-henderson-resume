@@ -2,14 +2,14 @@
 const ShowTechs = (props) => {
   
   return (
-  <p className="tech tools">
-    Technologoies Used:
+  <div className="tech tools">
+    <h4>Technologies Used:</h4>
     {props.techs.map(prop => {
       return (
         <img src={prop} alt= 'logo for tech' key={prop.id}/> 
   )
   })}
-</p>
+</div>
   )
 }
 
