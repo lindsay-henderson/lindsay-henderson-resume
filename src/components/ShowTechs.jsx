@@ -1,16 +1,18 @@
 
 
 const ShowTechs = (props) => {
-  console.log(props)
-return (
+  
+  return (
+  <p className="tech tools">
+    Technologoies Used:
+    {props.techs.map(prop => {
+      return (
+        <img src={prop} alt= 'logo for tech' key={prop.id}/> 
+  )
+  })}
+</p>
+  )
+}
 
-  <ul>
-  {this.map(prop=> 
-            <li>{prop.techs}</li>
-  )}
-  </ul>
-
-
-)}
 
 export default ShowTechs
