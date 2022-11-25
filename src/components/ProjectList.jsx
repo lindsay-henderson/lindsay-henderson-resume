@@ -1,5 +1,6 @@
 import '../styles/projects.css'
 import ProjectPreview from './ProjectPreview'
+import ShowTechs from './ShowTechs'
 
 const ProjectList = (props) => {
 
@@ -16,6 +17,7 @@ const ProjectList = (props) => {
           repositoryLink={prop.repositoryLink}
           deploymentLink={prop.deploymentLink}
           />
+          <ShowTechs techs={prop.techs}/>
         </li> 
       )}
     </ul>
