@@ -1,7 +1,7 @@
 html,
 main {
   margin-top: 60px;
-  height: 100%;
+  height: 80%;
   background:#EDF6F9;
   width: 100%;
 }
@@ -23,10 +23,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .projects {
-  margin-top: 200px;
+  margin-top: 1600px;
   border: 0;
-  height: 100vh;
+  height: 50vh;
+  /* padding-top: 1000px;   */
+
 }
 
 li {
@@ -49,9 +52,9 @@ li {
 }
 
 .preview > img {
-  height: 200px;
-  width : 350px;
-  margin: 10px;
+  height: 180px;
+  width : 300px;
+  margin: 15px;
   border: solid 5px #035E7B;
 }
 
@@ -61,6 +64,23 @@ li {
   align-items: center;
   justify-content: right;
   margin-bottom: 5%;
+}
+
+.project-description {
+  margin: 15px;
+}
+
+.tech-tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
 
 button {
@@ -113,7 +133,7 @@ a {
   }
 
   .projects {
-    margin-top: 200px;
+    margin-top: 900px;
   }
 
   li {

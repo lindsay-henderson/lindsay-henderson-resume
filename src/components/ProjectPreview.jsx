@@ -13,7 +13,7 @@ const ProjectPreview = (props) => {
       />
       <section className ='title'>
         <h3>{props.title}</h3>
-        <p className='projectDescription'>{props.description}</p>
+        <p className='project-description'>{props.description}</p>
         <p>{props.techs}</p>
         {/* <Link to={`/projects/${path}`}>
           <button>Learn more</button>
