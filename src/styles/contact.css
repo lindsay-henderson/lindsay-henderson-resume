@@ -54,7 +54,7 @@ h1 {
   padding: 5px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .intro > img  {
     width: 500px;
   }

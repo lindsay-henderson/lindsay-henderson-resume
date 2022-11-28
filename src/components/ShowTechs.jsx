@@ -7,7 +7,7 @@ const ShowTechs = (props) => {
     <div className="tech-icons">
     {props.techs.map(prop => {
       return (
-        <img src={prop} alt= 'logo for tech' key={prop.id}/> 
+        <img src={prop} alt= 'logo for tech' key={prop}/> 
         )
       })}
       </div>

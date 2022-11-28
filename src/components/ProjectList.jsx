@@ -9,7 +9,7 @@ const ProjectList = (props) => {
     <h1>Projects</h1>
     <ul className="project-list">
       {props.allProjects.map(prop=>
-        <li key={prop.id}>
+        <li key={prop.title}>
           <ProjectPreview
           title={prop.title}
           image={prop.image}
