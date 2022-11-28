@@ -12,12 +12,10 @@ body {
 }
 
 #root,
+
 .project-list {
   width: 100%;
   padding: 0;
-}
-
-.project-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,7 +108,7 @@ a {
   }
   
   .projects {
-    margin-top: 400px;
+    margin-top: 1600px;
   }
   
   li {
