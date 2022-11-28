@@ -90,6 +90,11 @@ button {
 
 a {
 text-decoration: none;
+color: #035E7B;
+}
+
+a:hover {
+  color: #FF8E72;
 }
 
 .link-icons {

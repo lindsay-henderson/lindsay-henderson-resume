@@ -17,7 +17,7 @@ const ProjectPreview = (props) => {
         <div className='link-icons'>
               <a href={ props.repositoryLink }> <img src="/github.png" alt="github logo" /></a>
               <br/>
-              <a href={ props.deploymentLink }>try it out</a>
+              <a href={ props.deploymentLink }>Try it out</a>
             </div>
         <p>{props.techs}</p>
         {/* <Link to={`/projects/${path}`}>
