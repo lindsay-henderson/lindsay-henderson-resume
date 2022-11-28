@@ -14,6 +14,11 @@ const ProjectPreview = (props) => {
       <section className ='title'>
         <h3>{props.title}</h3>
         <p className='project-description'>{props.description}</p>
+        <div className='link-icons'>
+              <a href={ props.repositoryLink }> <img src="/github.png" alt="github logo" /></a>
+              <br/>
+              <a href={ props.deploymentLink }>try it out</a>
+            </div>
         <p>{props.techs}</p>
         {/* <Link to={`/projects/${path}`}>
           <button>Learn more</button>
