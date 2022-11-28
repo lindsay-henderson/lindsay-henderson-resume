@@ -1,21 +1,27 @@
 html,
 body,
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 60px;
   background:#EDF6F9;
   width: 100%;
+  text-align: center;
 }
 
-section {
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 300px;
 }
 
 .photo {
   align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .photo > img {
@@ -39,4 +45,17 @@ section {
   width: 85%;
   padding: 4%;
   background:#EDF6F9;
+}
+
+@media screen and (min-width: 800px) {
+  .about {
+    flex-direction: row;
+    border: 0;
+    margin: 20px 50px 20px 100px;
+    width: 80%;
+    font-size: 20px;
+  }
+
+
+  
 }
