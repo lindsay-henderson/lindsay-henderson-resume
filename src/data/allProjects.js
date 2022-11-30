@@ -11,11 +11,11 @@ export const allProjects =
 
   {
     title: 'Roller Skate Trick Library',
-    description: 'A community-driven app that allows users to contribute to a library of tricks a person can do on roller skates. This app uses RESTful routing and Google Auth.',
+    description: 'A community-driven app that allows users to contribute to a library of tricks a person can do on roller skates. This app uses RESTful routing and Google authorization.',
     image: 'https://live.staticflickr.com/65535/52493544670_31aa0bebc6_k.jpg',
     repositoryLink: 'https://github.com/lindsay-henderson/roller-skate-trick-library.git',
     deploymentLink: 'https://roller-skate-library.fly.dev/',
-    techs: ['/react.png', '/mongodb.png', '/node-js.png', '/express.png', '/html5.png', '/css3.png', '/js.png']
+    techs: ['/react.png', '/node-js.png', '/mongodb.png', '/express.png', '/html5.png', '/css3.png', '/js.png']
   },
 
   {
