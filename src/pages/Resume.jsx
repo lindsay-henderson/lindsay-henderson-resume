@@ -1,6 +1,6 @@
 import React from 'react'
 // import '../styles/resume.css'
-import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume-22.pdf'
+import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume.pdf'
 
 
 function Resume() {
