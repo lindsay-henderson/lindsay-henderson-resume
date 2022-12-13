@@ -14,7 +14,8 @@ function Contact() {
           </div>
         </div>
         <div className='intro'>
-          <img src="https://live.staticflickr.com/65535/52517201947_ddfbb7de4d_b.jpg"  alt="a cat wearing a lobster hat"/>
+          <img src ="/photos/lobstercat.jpg"
+          alt="a cat wearing a lobster hat"/>
         </div>
       </div>
       </section>

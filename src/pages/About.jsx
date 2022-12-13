@@ -1,6 +1,13 @@
 import'../styles/about.css'
+// import { useParams } from "react-router-dom"
+// import { dadJoke } from '../components/DadJokes'
+
+
 
 function About() {
+  // let { jokeParts } = useParams()
+  // let joke = dadJoke(jokeParts)
+
   return (
     <section className='about'>
       <div className='photo'>
@@ -13,6 +20,7 @@ function About() {
           <br/>
           <p> In my spare time, I enjoy outdoor adventures like hiking and rock climbing, petting every dog I meet, and watercolor painting.</p>
         </div>
+       
       </div>
     </section>
   )

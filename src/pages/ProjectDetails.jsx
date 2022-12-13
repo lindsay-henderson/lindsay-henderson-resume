@@ -2,6 +2,7 @@ import '../styles/projectDetails.css'
 import { findProject } from '../utilities/findProject'
 import { useParams } from "react-router-dom"
 
+
 const ProjectDetails = () => {
 
   let { projectDetails } = useParams()
@@ -17,9 +18,7 @@ const ProjectDetails = () => {
         <div className='details'>
             <p>{project.description}</p>
             <div className='gitlaunch'>
-              <a href={ project.repositoryLink } >github</a>
-              <br/>
-              <a href={ project.deploymentLink }>try it out</a>
+
             </div>
         </div>
       </div>
