@@ -1,5 +1,5 @@
 import '../styles/projects.css'
-import ProjectList from '../components/ProjectList'
+import ProjectList from './ProjectList'
 import { allProjects } from '../data/allProjects'
 
 const Projects = () => {

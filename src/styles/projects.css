@@ -1,10 +1,10 @@
-html,
+/* html,
 main {
   margin-top: 60px;
   height: 80%;
-  background:#EDF6F9;
+  background:none;
   width: 100%;
-}
+} */
 
 body {
   border: 0;
@@ -22,10 +22,10 @@ body {
   align-items: center;
 }
 
-.projects {
+/* .projects {
   margin-top: 1800px;
   border: 0;
-}
+} */
 
 li {
   width: 350px;
@@ -118,9 +118,9 @@ a:hover {
     margin-top: 0;
   }
   
-  .projects {
+  /* .projects {
     margin-top: 1900px;
-  }
+  } */
   
   li {
     width: 90%;
@@ -138,9 +138,9 @@ a:hover {
     padding: 10px;
   }
 
-  .projects {
+  /* .projects {
     margin-top: 1200px;
-  }
+  } */
 
   li {
     width: 90%

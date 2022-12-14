@@ -1,11 +1,11 @@
-html,
+/* html,
 body,
 main {
   margin-top: 30px;
   height: 100%;
   background:#EDF6F9;
   width: 100%;
-}
+} */
 
 section {
   display: flex;

@@ -1,13 +1,13 @@
 export const allProjects = 
 [
-  {
-    title: 'My Bike Shed',
-    description: 'An app based on an actual bike shed in my life. A user can create an account and add bikes to the collection.  Users can track maintenace and customize their bike with accessories from a user generated library.  This app uses RESTful routing and django authorization',
-    image: 'https://live.staticflickr.com/65535/52529496802_78a1b41668_k.jpg',
-    repositoryLink: 'https://github.com/lindsay-henderson/my-bike-shed.git',
-    deploymentLink: 'https://my-bike-shed.herokuapp.com/',
-    techs: ['/postgresql.png', '/python.png', '/django.png', '/docker.png', '/html5.png', '/css3.png', '/js.png']
-  },
+  // {
+  //   title: 'My Bike Shed',
+  //   description: 'An app based on an actual bike shed in my life. A user can create an account and add bikes to the collection.  Users can track maintenace and customize their bike with accessories from a user generated library.  This app uses RESTful routing and django authorization',
+  //   image: 'https://live.staticflickr.com/65535/52529496802_78a1b41668_k.jpg',
+  //   repositoryLink: 'https://github.com/lindsay-henderson/my-bike-shed.git',
+  //   deploymentLink: 'https://my-bike-shed.herokuapp.com/',
+  //   techs: ['/postgresql.png', '/python.png', '/django.png', '/docker.png', '/html5.png', '/css3.png', '/js.png']
+  // },
 
   {
     title: 'Roller Skate Trick Library',
