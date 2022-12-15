@@ -4,9 +4,11 @@ import { allProjects } from '../data/allProjects'
 
 const Projects = () => {
   return (
+    <section id='projects'>
     <ProjectList
       allProjects={allProjects} 
     />
+    </section>
   )
 }
 

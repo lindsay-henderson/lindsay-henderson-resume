@@ -11,6 +11,10 @@ main {
   width: 100%;
 }
 
+h1 {
+  color:#f9f5ff;
+}
+
 html {
   background-image: url('./photos/background.png');
   background-size: cover;
@@ -19,12 +23,6 @@ html {
   height:100vh
   
 }
-
-/* box-sizing: border-box;
-display: flex;
-flex-direction: column;
-/* align-items: center; */
-/*justify-content: center; */
 
 .App {
   text-align: center;

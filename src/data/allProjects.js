@@ -15,7 +15,7 @@ export const allProjects =
     image: 'https://live.staticflickr.com/65535/52493544670_31aa0bebc6_k.jpg',
     repositoryLink: 'https://github.com/lindsay-henderson/roller-skate-trick-library.git',
     deploymentLink: 'https://roller-skate-library.fly.dev/',
-    techs: ['/react.png', '/node-js.png', '/mongodb.png', '/express.png', '/html5.png', '/css3.png', '/js.png']
+    techs: ['/node-js.png', '/mongodb.png', '/express.png', '/html5.png', '/css3.png', '/js.png']
   },
 
   {

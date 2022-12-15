@@ -37,13 +37,12 @@ section {
   align-items: center;
 }
 
-h1 {
+.text > h1 {
   width: 400px;
   padding: 0;
-  color:#F9F5FF;
+  color: #f9f5ff;
   border-bottom: 4px solid#ffffff80;
   margin-bottom: 0;
-
 }
 
 h2 {
@@ -52,6 +51,13 @@ h2 {
 
 .subtext { 
   margin: 10px;
+}
+
+#under-construction > p {
+  color: #F9A03F;
+  font-weight: bolder;
+  font-size: large;
+  width: 400px;
 }
 
 @media screen and (min-width: 800px) {
@@ -67,7 +73,7 @@ h2 {
     background: none
   }
 
-  h1 {
+  .text > h1  {
     width: 100%;
     font-size: 40px;
     margin: 10px;
@@ -86,5 +92,13 @@ h2 {
   .headshot > img {
     width: 300px;
     height: 300px
+  }
+
+  #under-construction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    margin: 8px;  
   }
 }

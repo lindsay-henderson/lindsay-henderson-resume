@@ -1,7 +1,9 @@
 h1 {
-  color: #035E7B;
+  color: #f9f5ff;
   margin-bottom: 20px;
   font-size: 30px;
+  width: 400px;
+  padding: 0;
 }
 
 .chat {
