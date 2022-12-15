@@ -1,10 +1,10 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
-import Home from './components/Home.jsx'
-import About from './components/About.jsx'
-import Contact from './components/Contact.jsx'
-import Resume from './components/Resume.jsx'
-import Projects from './components/Projects.jsx'
+// import Home from './components/Home.jsx'
+// import About from './components/About.jsx'
+// import Contact from './components/Contact.jsx'
+// import Resume from './components/Resume.jsx'
+// import Projects from './components/Projects.jsx'
 import Nav from './components/Nav.jsx'
 // import {allProjects} from './data/allProjects';
 // import ProjectDetails from './pages/ProjectDetails'
@@ -18,14 +18,6 @@ function App() {
       <Routes>
         <Route path='/' 
         element={<Main/>} />
-        <Route path='/'
-        element={<Home/>} />
-        <Route path='/'
-        element={<About/>} />
-                <Route path='/'
-        element={<About/>} />
-                <Route path='/'
-        element={<Projects/>}/>
 
       </Routes>
     </main>

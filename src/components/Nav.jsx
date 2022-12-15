@@ -1,6 +1,3 @@
-import { NavLink, Link } from "react-router-dom"
-import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume.pdf'
-
 function Nav() {
   return (
 
