@@ -4,7 +4,6 @@ import { allProjects } from '../data/allProjects'
 
 const Projects = () => {
   return (
-
     <ProjectList
       allProjects={allProjects} 
     />

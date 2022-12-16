@@ -11,6 +11,7 @@ body {
   border-bottom: 4px solid#ffffff80;
   margin-bottom: 0;
   margin-top: 0;
+  size: 30px;
 }
 
 .project-list {
@@ -130,6 +131,9 @@ h4 {
   li {
     width: 90%;
   }
+  .projects > h1 {
+    size: 50px;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -144,10 +148,6 @@ h4 {
     padding: 10px;
     text-align: center;
   }
-
-  /* .projects {
-    margin-top: 1200px;
-  } */
 
   li {
     width: 80%
