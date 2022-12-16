@@ -6,7 +6,10 @@ body {
 .projects > h1 {
   text-align: center;
   width: 400px;
+  padding: 0;
+  color: #f9f5ff;
   border-bottom: 4px solid#ffffff80;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
