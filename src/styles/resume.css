@@ -1,17 +1,32 @@
-.resume-details {
+#resume-details {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #f9f5ff;
-
+  text-align: center;
+  width: 400px;
+  padding: 0;
+  border: 0;
+  margin-bottom: 0;
 }
 
-.resume-details > h1 {
+#resume-details > h1 {
   width: 400px;
   padding: 0;
   color: #f9f5ff;
-  border-bottom: 4px solid#ffffff80;
   margin-bottom: 0;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9f5ff;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 h1:hover {

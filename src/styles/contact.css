@@ -1,9 +1,11 @@
-h1 {
+.contact-box > h1 {
   color: #f9f5ff;
   margin-bottom: 20px;
   font-size: 30px;
   width: 400px;
+  border-bottom: 4px solid#ffffff80;
   padding: 0;
+  text-align: center;
 }
 
 .chat {
@@ -14,6 +16,12 @@ h1 {
 .contact-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  padding: 2%;
+  margin: 10px;
+  background:linear-gradient(rgba(6, 60, 49, .8),rgba(6, 60, 49, 1));
+  border-radius: 5%;
 }
 
 .intro {
