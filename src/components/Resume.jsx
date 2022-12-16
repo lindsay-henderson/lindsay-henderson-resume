@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../styles/resume.css'
+import '../styles/resume.css'
 import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume.pdf'
 import { NavLink } from 'react-router-dom'
 
@@ -8,21 +8,16 @@ function Resume() {
   return (
     <div className='resume-details' id='resume'>
       <div className="resume">
-        <h2><a href="/Lindsay-N-Henderson-Resume-22.pdf" download>Click Here </a>
-        to Download My Resume</h2>
-        <NavLink to={pdf} target="_blank">Check out my resume</NavLink>
-
+        <NavLink to={pdf} target="_blank"><h1>Check Out My Resume</h1></NavLink>
       </div>
-
-      <button>
-                  {/* text="See my resume"
-                  newTab={true}
-                  href={pdf} */}
-                  <a href={pdf}> here</a>
-                  </button>
     </div>
   )
 }
 
+/* text="See my resume"
+newTab={true}
+href={pdf} */
 
 export default Resume
+/* <a href="/Lindsay-N-Henderson-Resume-22.pdf" download>Click Here</a>
+to Download My Resume */
