@@ -35,6 +35,7 @@ a > h1:hover {
 
 @media screen and (min-width: 700px){
   h1 {
-    width: 600px
+    width: 600px;
+    text-align: center;
   }
 }
