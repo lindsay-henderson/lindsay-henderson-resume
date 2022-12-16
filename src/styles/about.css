@@ -8,6 +8,7 @@
 }
 .about {
   display: flex;
+  margin-top: 75px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
