@@ -6,7 +6,7 @@ import {Main} from './components/main/Main'
 
 function App() {
   return (
-    <div class="bg-img">
+    <div className="bg-img">
     <Nav />
     <main>
       <Routes>
