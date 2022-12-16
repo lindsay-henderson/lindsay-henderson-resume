@@ -1,14 +1,8 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
-// import Home from './components/Home.jsx'
-// import About from './components/About.jsx'
-// import Contact from './components/Contact.jsx'
-// import Resume from './components/Resume.jsx'
-// import Projects from './components/Projects.jsx'
 import Nav from './components/Nav.jsx'
-// import {allProjects} from './data/allProjects';
-// import ProjectDetails from './pages/ProjectDetails'
 import {Main} from './components/main/Main'
+
 
 function App() {
   return (
@@ -18,7 +12,6 @@ function App() {
       <Routes>
         <Route path='/' 
         element={<Main/>} />
-
       </Routes>
     </main>
     </div>

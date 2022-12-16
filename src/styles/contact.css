@@ -44,14 +44,23 @@
 }
 
 .contact  > p {
-  color: #035E7B;;
-  padding: 5px;
+  color: #f9f5ff;;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
   p > img {
-  padding: 5px;
+  padding-right: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons > a {
+  margin: 10px;
 }
 
 @media screen and (min-width: 900px) {
