@@ -6,10 +6,8 @@ body {
 .projects > h1 {
   text-align: center;
   width: 400px;
-  padding: 0;
-  color: #f9f5ff;
   border-bottom: 4px solid#ffffff80;
-  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .project-list {
@@ -95,7 +93,7 @@ color: #026C65;
 
 a:hover {
   color: #f9a03f;
-}
+} 
 
 .link-icons {
   display: flex;

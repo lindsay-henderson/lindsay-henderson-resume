@@ -44,7 +44,10 @@ html {
   width: 75%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+}
+
+.home > a {
+  padding:20%;
 }
 
 .home {
@@ -58,26 +61,15 @@ img {
   width: 40px;
 }
 
-.links > a {
+.home > a {
   color: #F9F5FF;
   text-decoration: none;
 }
 
-.links > a:hover {
+.home > a:hover {
   color: #F9A03F;
 }
 
 li {
   list-style: none;
-}
-
-button {
-  color: #002E2C;
-  background: none;
-  border: none;
-}
-
-button:hover {
-  color: #F9A03F;
-  background-color: #002E2C;
 }

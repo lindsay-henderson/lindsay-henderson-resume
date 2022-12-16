@@ -29,7 +29,7 @@
   margin: 0;
 }
 
-h1:hover {
+a > h1:hover {
   color: #f9a03f;
 }
 
