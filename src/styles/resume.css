@@ -4,14 +4,14 @@
   justify-content: center;
   color: #f9f5ff;
   text-align: center;
-  width: 400px;
+  width: 300px;
   padding: 0;
   border: 0;
   margin-bottom: 0;
 }
 
-#resume-details > h1 {
-  width: 400px;
+#test2 > h1 {
+  width: 200px;
   padding: 0;
   color: #f9f5ff;
   margin-bottom: 0;
@@ -64,7 +64,7 @@ h1:hover {
 }
 
 @media screen and (min-width: 700px){
-  h1 {
+  #test2 > h1 {
     width: 400px;
     text-align: center;
   }
