@@ -55,7 +55,7 @@ h1:hover + .gold {
   display: inline;
 }
 
-h1:hover {
+#test2 > h1:hover {
   color:#F9A03F;
 }
 
