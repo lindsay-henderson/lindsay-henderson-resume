@@ -5,7 +5,7 @@ import ShowTechs from './ShowTechs'
 const ProjectList = (props) => {
 
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
     <h1>Projects</h1>
     <ul className="project-list">
       {props.allProjects.map(prop=>
