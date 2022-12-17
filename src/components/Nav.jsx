@@ -4,7 +4,7 @@ function Nav() {
     <nav className="nav-bar">
       <div className="home">
         <a href='#home-page'>
-          <img src="/apple-touch-icon.png" alt="a square with the initials L & H"/>
+          <img src="/leaves-gold.png" alt="a silouette of leaves"/>
         </a>
       <a href='#projects'>Projects</a>
       <a href='#about'>About</a>

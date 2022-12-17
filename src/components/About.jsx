@@ -10,7 +10,7 @@ function About() {
 
   return (
     <section className='about' id='about'>
-      <div className='about-box'>
+
         <h1>A Bit About Me...</h1>
         <div className='about-text'>
           <p>I’m a software engineer with a background in program development, client communications, and artmaking. I'm excited about using creativity and responsive design as tools that empower users to communicate, find resources, and connect in meaningful ways. I know the important things take hard work, and I bring those values with me when I take on new projects.</p>
@@ -20,7 +20,6 @@ function About() {
           <img src="https://live.staticflickr.com/65535/52517045412_19ee80b259_b.jpg"
           alt="a chihuahua wearing sunglasses and a red bandana"/>
           <figcaption>A portrait I painted of a sassy dog-friend</figcaption>
-      </div>
       </div>
     </section>
   )

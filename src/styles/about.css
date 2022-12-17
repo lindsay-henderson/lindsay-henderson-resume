@@ -1,18 +1,19 @@
-.about-box > h1 {
+#about {
+  display: flex;
+  margin-top: 75px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #F9F5FF;
+}
+.about > h1 {
   text-align: center;
   width: 400px;
   padding: 0;
   color: #f9f5ff;
   border-bottom: 4px solid#ffffff80;
   margin-bottom: 0;
-}
-.about {
-  display: flex;
-  margin-top: 75px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #F9F5FF;
 }
 
 .headshot {

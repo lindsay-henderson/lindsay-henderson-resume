@@ -7,9 +7,9 @@ function Home() {
       <div className='text'>
         <h1>Lindsay Henderson</h1>
         <div className='subtext'>
-          <h2>Software Engineer</h2> 
-          <p><img src="leaves-gold.png" alt="solid leaf silouette" /></p>
-          <h2>Web Developer</h2>
+          <h3>Software Engineer</h3> 
+          <p><img src="leaves-gold.png" alt="solid leaf silouette"/></p>
+          <h3>Web Developer</h3>
         </div>
       </div>
     </div>
