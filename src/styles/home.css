@@ -45,6 +45,7 @@ section {
   margin-bottom: 0;
   size: 60px;
   height: 60px;
+  font-size: 30px;
 }
 
 .subtext > h3 {
@@ -99,9 +100,7 @@ padding: 0;
     width: 300px;
     height: 300px
   }
-}
 
-@media screen and (max-width: 800px){
   .subtext > p {
     display: none;
   }

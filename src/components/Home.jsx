@@ -3,6 +3,7 @@ import'../styles/home.css'
 function Home() {
   return (
     <section className='home-page' id='home-page'>
+    <section className='spacer'></section>
     <div className="home-card">
       <div className='text'>
         <h1>Lindsay Henderson</h1>

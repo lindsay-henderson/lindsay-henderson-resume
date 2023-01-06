@@ -10,6 +10,7 @@ function About() {
 
   return (
     <section className='about' id='about'>
+        <section className='spacer'></section>
 
         <h1>A Bit About Me...</h1>
         <div className='about-text'>

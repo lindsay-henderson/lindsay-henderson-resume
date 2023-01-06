@@ -4,9 +4,12 @@ import { allProjects } from '../data/allProjects'
 
 const Projects = () => {
   return (
+    <div id='projects'>
+      <section className='spacer'></section>
     <ProjectList
       allProjects={allProjects} 
-    />
+      />
+      </div>
   )
 }
 

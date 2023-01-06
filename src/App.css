@@ -3,7 +3,6 @@ root {
   height: 100vh;
 }
 main {
-  margin-top: 15%;
   border: 0;
   width: 100%;
   height: 100vh;
@@ -76,4 +75,8 @@ img {
 
 li {
   list-style: none;
+}
+
+.spacer {
+  height: 100px
 }
