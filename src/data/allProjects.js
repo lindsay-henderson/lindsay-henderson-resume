@@ -11,7 +11,7 @@ export const allProjects =
 
   {
     title: 'Artist Website: Paint All The Dogs',
-    description: 'A Business website sharing contact information and ordering details for clients.  I had fun setting this up over the holidays, it allowed me to play with Bootstrap and MUI.',
+    description: 'A business website intended for communicating contact information and ordering details.  I had fun setting this up over the holidays, it allowed me to play with Bootstrap and MUI.',
     image: 'https://live.staticflickr.com/65535/52611402765_0a8f3a0362_k.jpg',
     repositoryLink: 'https://github.com/lindsay-henderson/paint-all-the-dogs.git',
     deploymentLink: 'https://paintallthedogs.netlify.app/',
