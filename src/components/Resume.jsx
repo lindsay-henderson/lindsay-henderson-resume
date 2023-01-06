@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/resume.css'
-import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume.pdf'
+import pdf from '../data/pdfs/Lindsay-Henderson-Resume.pdf'
 import { NavLink } from 'react-router-dom'
 
 

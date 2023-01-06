@@ -19,15 +19,3 @@ function App() {
 }
 
 export default App
-
-// {/* <Route path='about' 
-// element={<About/>} /> */}
-// {/* <Route path='contact' 
-// element={<Contact/>} />
-// <Route path='projects' 
-// element={<Projects
-// allProjects={allProjects}/>}/>
-// <Route path='projects/:projectDetails' 
-// element={<ProjectDetails/>}/>
-// <Route path='resume' 
-// element={<Resume/>}/> */}
