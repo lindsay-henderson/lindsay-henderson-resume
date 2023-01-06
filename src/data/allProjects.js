@@ -10,6 +10,15 @@ export const allProjects =
   // },
 
   {
+    title: 'Artist Website: Paint All The Dogs',
+    description: 'A Business website sharing contact information and ordering details for clients.  I had fun setting this up over the holidays, it allowed me to play with Bootstrap and MUI.',
+    image: 'https://live.staticflickr.com/65535/52611402765_0a8f3a0362_k.jpg',
+    repositoryLink: 'https://github.com/lindsay-henderson/paint-all-the-dogs.git',
+    deploymentLink: 'https://paintallthedogs.netlify.app/',
+    techs: ['/node-js.png', '/express.png', '/html5.png', '/css3.png', '/js.png', '/react.png']
+  },
+
+  {
     title: 'Roller Skate Trick Library',
     description: 'A community-driven app that allows users to contribute to a library of tricks a person can do on roller skates. This app uses RESTful routing and Google authorization.',
     image: 'https://live.staticflickr.com/65535/52493544670_31aa0bebc6_k.jpg',
