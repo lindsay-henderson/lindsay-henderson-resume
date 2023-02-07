@@ -1,9 +1,15 @@
 import '../styles/contact.css'
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Contact() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <section>
-    <section className='contact-box'id='contact'>
+    <section className='contact-box'id='contact' data-aos='fade-up' data-aos-duration="1000">
       <h1>Let's Stay in Touch</h1>
       
       <div className="chat">
